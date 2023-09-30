@@ -29,7 +29,7 @@ a:hover {
     font-weight: bold;
 }
 
-/* 
+/*
 header {
     background-color: #648fff;
     border: 10px solid black;
@@ -61,4 +61,17 @@ body {
 .nav__lower {
     display: flex;
     justify-content: space-evenly;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.main__image {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
 }
